@@ -8,9 +8,9 @@ class Life_Settings {
     /* Persistent Settings */
     save_civ_weapons = false; //Allow civilians to save weapons on them?
     save_virtualItems = true; //Save Virtual items (all sides)?
-    save_playerStats = false; //Save food & water (all sides)?
-    save_veh_virtualItems = false; //Save Virtual items for vehicles (all sides)?
-    save_veh_gear = false; //Save Gear for vehicles (all sides)?
+    save_playerStats = true; //Save food & water (all sides)?
+    save_veh_virtualItems = true; //Save Virtual items for vehicles (all sides)?
+    save_veh_gear = true; //Save Gear for vehicles (all sides)?
 
     /* Clothing related settings */
     clothing_box = true; //true = preview inside a black box.  false = preview on map.
@@ -45,9 +45,9 @@ class Life_Settings {
     impound_air = 850; //Price for impounding helicopters / planes
 
     /* Initial Bank Amount */
-    bank_cop = 7000; //Amount of cash on bank for new cops
-    bank_civ = 3000; //Amount of cash on bank for new civillians
-    bank_med = 6500; //Amount of cash on bank for new medics
+    bank_cop = 52810; //Amount of cash on bank for new cops
+    bank_civ = 51939; //Amount of cash on bank for new civillians
+    bank_med = 54690; //Amount of cash on bank for new medics
 
     /* Paycheck Amount */
     paycheck_cop = 500; //Payment for cops
@@ -55,7 +55,7 @@ class Life_Settings {
     paycheck_med = 450; //Payment for medics
 
     /* Federal Reserve settings */
-    noatm_timer = 10; //Time in minutes that players won't be able to deposit his money after selling stolen gold
+    noatm_timer = 5; //Time in minutes that players won't be able to deposit his money after selling stolen gold
 
     /* Spyglass settings */
     spyglass_init = false; //Enable or disable spyglass
