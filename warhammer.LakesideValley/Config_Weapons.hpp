@@ -131,21 +131,21 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "arifle_sdar_F", "Taser Rifle", 20000, 7500 },
-            { "hgun_P07_snds_F", "Stun Pistol", 2000, 650 },
-            { "hgun_P07_F", "", 7500, 1500 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
-            { "Binocular", "", 150, -1 },
-            { "ItemGPS", "", 100, 45 },
-            { "ToolKit", "", 250, 75 },
-            { "muzzle_snds_L", "", 650, -1 },
-            { "FirstAidKit", "", 150, 65 },
-            { "Medikit", "", 1000, 450 },
-            { "NVGoggles", "", 2000, 980 }
+            { "arifle_sdar_F", "Taser Rifle", 0, 7500 },
+            { "hgun_P07_snds_F", "Stun Pistol", 0, 650 },
+            { "hgun_P07_F", "", 0, 1500 },
+            { "HandGrenade_Stone", "Flashbang", 0, -1 },
+            { "Binocular", "", 0, -1 },
+            { "ItemGPS", "", 0, 45 },
+            { "ToolKit", "", 0, 75 },
+            { "muzzle_snds_L", "", 0, -1 },
+            { "FirstAidKit", "", 0, 65 },
+            { "Medikit", "", 0, 450 },
+            { "NVGoggles", "", 0, 980 }
         };
         mags[] = {
-            { "16Rnd_9x21_Mag", "", 25 },
-            { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 }
+            { "16Rnd_9x21_Mag", "", 0 },
+            { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 0 }
         };
     };
 
@@ -155,18 +155,18 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 2, "You must be a Patrol Officer Rank!" };
         items[] = {
-            { "arifle_MX_F", "", 35000, 7500 },
-            { "SMG_02_ACO_F", "", 30000, -1 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
-            { "MineDetector", "", 1000, 500 },
-            { "acc_flashlight", "", 750, 100 },
-            { "optic_Holosight", "", 1200, 275 },
-            { "optic_Arco", "", 2500, -1 },
-            { "muzzle_snds_H", "", 2750, -1 }
+            { "arifle_MX_F", "", 0, 7500 },
+            { "SMG_02_ACO_F", "", 0, -1 },
+            { "HandGrenade_Stone", "Flashbang", 0, -1 },
+            { "MineDetector", "", 0, 500 },
+            { "acc_flashlight", "", 0, 100 },
+            { "optic_Holosight", "", 0, 275 },
+            { "optic_Arco", "", 0, -1 },
+            { "muzzle_snds_H", "", 0, -1 }
         };
         mags[] = {
-            { "30Rnd_65x39_caseless_mag", "", 130 },
-            { "30Rnd_9x21_Mag", "", 250 }
+            { "30Rnd_65x39_caseless_mag", "", 0 },
+            { "30Rnd_9x21_Mag", "", 0 }
         };
     };
 
@@ -176,17 +176,17 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant Rank!" };
         items[] = {
-            { "hgun_ACPC2_F", "", 17500, -1 },
-            { "SMG_02_ACO_F", "", 15000, -1 },
-            { "arifle_MXC_F", "", 30000, 5000 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
-            { "optic_Arco", "", 2500, -1 },
-            { "muzzle_snds_H", "", 2750, -1 }
+            { "hgun_ACPC2_F", "", 0, -1 },
+            { "SMG_02_ACO_F", "", 0, -1 },
+            { "arifle_MXC_F", "", 0, 5000 },
+            { "HandGrenade_Stone", "Flashbang", 0, -1 },
+            { "optic_Arco", "", 0, -1 },
+            { "muzzle_snds_H", "", 0, -1 }
         };
         mags[] = {
-            { "9Rnd_45ACP_Mag", "", 200 },
-            { "30Rnd_9x21_Mag", "", 60 },
-            { "30Rnd_65x39_caseless_mag", "", 100, -1 }
+            { "9Rnd_45ACP_Mag", "", 0 },
+            { "30Rnd_9x21_Mag", "", 0 },
+            { "30Rnd_65x39_caseless_mag", "", 0, -1 }
         };
     };
 
@@ -197,12 +197,12 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "ItemGPS", "", 100, 45 },
-            { "Binocular", "", 150, -1 },
-            { "ToolKit", "", 250, 75 },
-            { "FirstAidKit", "", 150, 65 },
-            { "Medikit", "", 500, 450 },
-            { "NVGoggles", "", 1200, 980 }
+            { "ItemGPS", "", 0, 45 },
+            { "Binocular", "", 0, -1 },
+            { "ToolKit", "", 0, 75 },
+            { "FirstAidKit", "", 0, 65 },
+            { "Medikit", "", 0, 450 },
+            { "NVGoggles", "", 0, 980 }
         };
         mags[] = {};
     };
