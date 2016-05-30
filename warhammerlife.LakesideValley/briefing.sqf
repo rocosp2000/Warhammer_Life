@@ -25,9 +25,9 @@ player createDiarySubject ["controls","Controls"];
 
 	player createDiaryRecord ["credits",
 		[
-			"ArmaLife",
+			"Warhammer Life",
 				"
-					ArmaLife is a GitHub project which aims to update and keep adding new features to the original 'Altis Life RPG' by Tonic.<br/><br/>
+					Decampo + Rad1x<br/><br/>
 				"
 		]
 	];

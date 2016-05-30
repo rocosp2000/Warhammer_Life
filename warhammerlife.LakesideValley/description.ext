@@ -1,4 +1,4 @@
-author = "Tonic";
+author = "Decampo/Rad1x";
 loadScreen = "textures\armalife.jpg";
 joinUnassigned = 1;
 respawn = BASE;

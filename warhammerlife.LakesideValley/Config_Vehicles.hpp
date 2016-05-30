@@ -40,18 +40,18 @@ class CarShops {
     class med_shop {
         side = "med";
         vehicles[] = {
-            { "C_Offroad_01_F", 0, { "" }, { "", "", -1 } },
-            { "I_Truck_02_medical_F", 0, { "" }, { "", "", -1 } },
-            { "O_Truck_03_medical_F", 0, { "" }, { "", "", -1 } },
-            { "B_Truck_01_medical_F", 0, { "" }, { "", "", -1 } }
+            { "A3L_AmberLamps", 0, { "" }, { "", "", -1 } },
+            { "A3L_CVPILBFD", 0, { "" }, { "", "", -1 } },
+            { "A3L_SuburbanEMS", 0, { "" }, { "", "", -1 } }
         };
     };
 
     class med_air_hs {
         side = "med";
         vehicles[] = {
-            { "B_Heli_Light_01_F", 0, { "mAir" }, { "", "", -1 } },
-            { "O_Heli_Light_02_unarmed_F", 0, { "mAir" }, { "", "", -1 } }
+            { "EMS_HUMMINGBIRD", 0, { "mAir" }, { "", "", -1 } },
+            { "EMS_TARU", 0, { "mAir" }, { "", "", -1 } },
+			{ "EMS_ORCA", 0, { "mAir" }, { "", "", -1 } },
         };
     };
 
@@ -83,11 +83,62 @@ class CarShops {
     class cop_car {
         side = "cop";
         vehicles[] = {
-            { "C_Offroad_01_F", 0, { "" }, { "", "", -1 } },
-            { "C_SUV_01_F", 0, { "" }, { "", "", -1 } },
-            { "C_Hatchback_01_sport_F", 0, { "" }, { "life_coplevel", "SCALAR", 1 } },
-            { "B_MRAP_01_F", 0, { "" }, { "life_coplevel", "SCALAR", 2 } },
-            { "B_MRAP_01_hmg_F", 0, { "" }, { "life_coplevel", "SCALAR", 3 } }
+            { "A3L_CVPIFPBPD", 0, { "" }, { "", "", -1 } },
+            { "A3L_EvoXFPBLBPD", 0, { "" }, { "", "", -1 } },
+            { "A3L_TahoeLBPB", 0, { "" }, { "", "", -1 } },
+			{ "A3L_TahoeUCPB", 0, { "" }, { "", "", -1 } },
+			{ "A3L_TahoeUCGMPB", 0, { "" }, { "", "", -1 } },
+			{ "A3L_SuburbanFG", 0, { "" }, { "", "", -1 } },
+			{ "A3L_CVPIUCBlack", 0, { "" }, { "", "", -1 } },
+			{ "A3L_CVPIUC", 0, { "" }, { "", "", -1 } },
+			{ "A3L_CVPIUCGrey", 0, { "" }, { "", "", -1 } },
+			{ "A3L_CVPIUCWhite", 0, { "" }, { "", "", -1 } },
+			{ "A3L_TahoeUC", 0, { "" }, { "", "", -1 } },
+			{ "A3L_GrandCaravanUC", 0, { "" }, { "", "", -1 } },
+			{ "A3L_GrandCaravanUCBlack", 0, { "" }, { "", "", -1 } }
+        };
+    };
+
+	class cso_car {
+        side = "cop";
+        vehicles[] = {
+            { "A3L_SuburbanCSO", 0, { "" }, { "", "", -1 } },
+            { "DAR_ExplorerPolice", 0, { "" }, { "", "", -1 } },
+            { "A3L_CVPIFPBCSO", 0, { "" }, { "", "", -1 } },
+            { "A3L_CVPIFPBLBCSO", 0, { "" }, { "", "", -1 } },
+            { "A3L_CVPIFPBLBPD", 0, { "" }, { "", "", -1 } },
+			{ "A3L_EvoXFPBLBSO", 0, { "" }, { "", "", -1 } },
+			{ "A3L_TaurusFPBCSO", 0, { "" }, { "", "", -1 } },
+			{ "A3L_TaurusFPBLBCSO", 0, { "" }, { "", "", -1 } },
+			{ "A3L_TahoeCSOLBPB", 0, { "" }, { "", "", -1 } },
+			{ "A3L_SuburbanFG", 0, { "" }, { "", "", -1 } },
+			{ "A3L_CVPIUCBlack", 0, { "" }, { "", "", -1 } },
+			{ "A3L_CVPIUC", 0, { "" }, { "", "", -1 } },
+			{ "A3L_CVPIUCGrey", 0, { "" }, { "", "", -1 } },
+			{ "A3L_CVPIUCWhite", 0, { "" }, { "", "", -1 } },
+			{ "A3L_TahoeUC", 0, { "" }, { "", "", -1 } },
+			{ "A3L_GrandCaravanUC", 0, { "" }, { "", "", -1 } },
+			{ "A3L_GrandCaravanUCBlack", 0, { "" }, { "", "", -1 } }
+        };
+    };
+
+	class doc_car {
+        side = "cop";
+        vehicles[] = {
+            { "A3L_Suburban", 0, { "" }, { "", "", -1 } },
+            { "A3L_CVPIFPBFG", 0, { "" }, { "", "", -1 } },
+            { "A3L_CVPIFPBLBFG", 0, { "" }, { "", "", -1 } },
+            { "A3L_TaurusFPBPD", 0, { "" }, { "", "", -1 } },
+            { "A3L_TaurusFPBLBPD", 0, { "" }, { "", "", -1 } },
+			{ "A3L_TaurusFPBPDGM", 0, { "" }, { "", "", -1 } },
+			{ "A3L_SuburbanFG", 0, { "" }, { "", "", -1 } },
+			{ "A3L_CVPIUCBlack", 0, { "" }, { "", "", -1 } },
+			{ "A3L_CVPIUC", 0, { "" }, { "", "", -1 } },
+			{ "A3L_CVPIUCGrey", 0, { "" }, { "", "", -1 } },
+			{ "A3L_CVPIUCWhite", 0, { "" }, { "", "", -1 } },
+			{ "A3L_TahoeUC", 0, { "" }, { "", "", -1 } },
+			{ "A3L_GrandCaravanUC", 0, { "" }, { "", "", -1 } },
+			{ "A3L_GrandCaravanUCBlack", 0, { "" }, { "", "", -1 } }
         };
     };
 
@@ -103,7 +154,12 @@ class CarShops {
         side = "cop";
         vehicles[] = {
             { "B_Heli_Light_01_F", 0, { "cAir" }, { "", "", -1 } },
-            { "B_Heli_Transport_01_F", 0, { "cAir" }, { "life_coplevel", "SCALAR", 3 } }
+            { "B_Heli_Transport_01_F", 0, { "cAir" }, { "life_coplevel", "SCALAR", 3 } },
+			{ "ivory_b206_police", 0, { "cAir" }, { "", "", -1 } },
+			{ "PD_sheriff_FLIR_mh9", 0, { "cAir" }, { "", "", -1 } },
+			{ "IVORY_BELL512_POLICE", 0, { "cAir" }, { "", "", -1 } },
+			{ "A3L_POLB", 0, { "cAir" }, { "", "", -1 } },
+			{ "PD_black_FLIR_mh9", 0, { "cAir" }, { "", "", -1 } }
         };
     };
 
