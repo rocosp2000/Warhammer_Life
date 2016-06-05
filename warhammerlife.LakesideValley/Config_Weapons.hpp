@@ -22,17 +22,15 @@ class WeaponShops {
         license = "gun";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "hgun_Rook40_F", "", 6500, 500 },
-            { "hgun_Pistol_heavy_02_F", "", 9850, -1 },
-            { "hgun_ACPC2_F", "", 11500, -1 },
-            { "hgun_PDW2000_F", "", 20000, -1 },
-            { "optic_ACO_grn_smg", "", 2500, 250 }
+            { "A3L_CZ550", "", 5000, -1 },
+			{ "A3L_CZ550Scope", "", 300, -1},
+            { "A3L_Glock17", "", 700, -1 },
+            { "hgun_Rook40_F", "", 600, -1 }
         };
         mags[] = {
-            { "16Rnd_9x21_Mag", "", 25 },
-            { "6Rnd_45ACP_Cylinder", "", 50 },
-            { "9Rnd_45ACP_Mag", "", 45 },
-            { "30Rnd_9x21_Mag", "", 75 }
+            { "A3L_CZ550Mag", "", 25 },
+            { "A3L_Glock17mag", "", 50 },
+            { "16Rnd_9x21_Mag", "", 45 }
         };
     };
 
@@ -42,20 +40,30 @@ class WeaponShops {
         license = "rebel";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "arifle_TRG20_F", "", 25000, 2500 },
-            { "arifle_Katiba_F", "", 30000, 5000 },
-            { "srifle_DMR_01_F", "", 50000, -1 },
-            { "arifle_SDAR_F", "", 20000, 7500 },
-            { "optic_ACO_grn", "", 3500, 350 },
-            { "optic_Holosight", "", 3600, 275 },
-            { "optic_Hamr", "", 7500, -1 },
-            { "acc_flashlight", "", 1000, 100 }
+            { "hlc_rifle_ak12", "", 25000, 0 },
+            { "hlc_rifle_rpk", "", 30000, 0 },
+            { "A3L_AK47", "", 50000, 0 },
+            { "A3L_AK47s", "", 20000, 0 },
+            { "A3L_AK47sgold", "", 3500, 0 },
+            { "A3L_AKS74", "", 3600, 0 },
+            { "A3L_TaurusGold", "", 7500, 0 },
+            { "A3L_makarov", "", 1000, 0 },
+			{ "A3L_SA61", "", 30000, 0 },
+			{ "A3L_Taurus", "", 30000, 0 },
+			{ "A3L_Uzi", "", 30000, 0 }
         };
         mags[] = {
-            { "30Rnd_556x45_Stanag", "", 300 },
-            { "30Rnd_65x39_caseless_green", "", 275 },
-            { "10Rnd_762x54_Mag", "", 500 },
-            { "20Rnd_556x45_UW_mag", "", 125 }
+            { "hlc_30Rnd_545x39_B_AK", "", 500 },
+            { "hlc_75Rnd_762x39_m_rpk", "", 500 },
+            { "A3L_AK47Mag", "", 500 },
+            { "A3L_AK47sMag", "", 500 },
+			{ "A3L_AK47sMag", "", 500 },
+			{ "A3L_AK47sMag", "", 500 },
+			{ "A3L_TaurusMag", "", 500 },
+			{ "A3L_makarovMag", "", 500 },
+			{ "A3L_SA61Mag", "", 500 },
+			{ "A3L_TaurusMag", "", 500 },
+			{ "A3L_UZIMag", "", 500 },
         };
     };
 
@@ -81,7 +89,7 @@ class WeaponShops {
 
     //Basic Shops
     class genstore {
-        name = "Altis General Store";
+        name = "General Store";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
@@ -103,7 +111,7 @@ class WeaponShops {
     };
 
     class f_station_store {
-        name = "Altis Fuel Station Store";
+        name = "Fuel Station Store";
         side = "";
         license = "";
         level[] = { "", "", -1, "" };
@@ -126,67 +134,61 @@ class WeaponShops {
 
     //Cop Shops
     class cop_basic {
-        name = "Altis Cop Shop";
+        name = "Police Necessities";
         side = "cop";
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "arifle_sdar_F", "Taser Rifle", 0, 7500 },
-            { "hgun_P07_snds_F", "Stun Pistol", 0, 650 },
-            { "hgun_P07_F", "", 0, 1500 },
-            { "HandGrenade_Stone", "Flashbang", 0, -1 },
             { "Binocular", "", 0, -1 },
-            { "ItemGPS", "", 0, 45 },
-            { "ToolKit", "", 0, 75 },
-            { "muzzle_snds_L", "", 0, -1 },
-            { "FirstAidKit", "", 0, 65 },
-            { "Medikit", "", 0, 450 },
-            { "NVGoggles", "", 0, 980 }
+            { "ItemGPS", "", 0, -1 },
+            { "ToolKit", "", 0, -1 },
+            { "FirstAidKit", "", 0, -1 },
+            { "Medikit", "", 0, -1 },
+            { "NVGoggles", "", 0, -1 }
         };
         mags[] = {
-            { "16Rnd_9x21_Mag", "", 0 },
-            { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 0 }
+            { "26_cartridge", "", 0 }
         };
     };
 
     class cop_patrol {
-        name = "Altis Patrol Officer Shop";
+        name = "Firearm Arsenal";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 2, "You must be a Patrol Officer Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 2, "You must be a Patrol Officer!" };
         items[] = {
-            { "arifle_MX_F", "", 0, 7500 },
-            { "SMG_02_ACO_F", "", 0, -1 },
-            { "HandGrenade_Stone", "Flashbang", 0, -1 },
-            { "MineDetector", "", 0, 500 },
-            { "acc_flashlight", "", 0, 100 },
-            { "optic_Holosight", "", 0, 275 },
-            { "optic_Arco", "", 0, -1 },
-            { "muzzle_snds_H", "", 0, -1 }
+            { "hlc_rifle_Bushmaster300", "Bushmaster .300", 0, 0 },
+            { "hlc_rifle_Colt727", "Colt AR15", 0, -1 },
+            { "A3L_M9", "M9 Hadngun", 0, -1 },
+			{ "Radar_Gun", "Speed Radar", 0, -1 },
+			{ "Taser_26", "Taser", 0, -1 },
+			{ "A3L_Glock17", "Glock 17", 0, -1 },
+			{ "hgun_Rook40_F", "Rook 40", 0, -1 },
+			{ "HandGrenade_Stone", "Flashbang", 0, -1 }
         };
         mags[] = {
-            { "30Rnd_65x39_caseless_mag", "", 0 },
-            { "30Rnd_9x21_Mag", "", 0 }
+            { "29rnd_300BLK_STANAG", "", 0 },
+            { "30Rnd_556x45_Stanag", "", 0 },
+			{ "A3L_M9Mag", "", 0 },
+			{ "radar_record_tape", "", 0 },
+			{ "26_cartridge", "", 0 },
+			{ "A3L_Glock17mag", "", 0 },
+			{ "16Rnd_9x21_Mag", "", 0 }
         };
     };
 
     class cop_sergeant {
-        name = "Altis Sergeant Officer Shop";
+        name = "Police SWAT Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 3, "You must be a SWAT Officer!" };
         items[] = {
-            { "hgun_ACPC2_F", "", 0, -1 },
-            { "SMG_02_ACO_F", "", 0, -1 },
-            { "arifle_MXC_F", "", 0, 5000 },
-            { "HandGrenade_Stone", "Flashbang", 0, -1 },
-            { "optic_Arco", "", 0, -1 },
-            { "muzzle_snds_H", "", 0, -1 }
+            { "hlc_smg_mp5a4", "", 0, -1 },
+            { "hlc_rifle_samr2", "", 0, -1 }
         };
         mags[] = {
-            { "9Rnd_45ACP_Mag", "", 0 },
-            { "30Rnd_9x21_Mag", "", 0 },
-            { "30Rnd_65x39_caseless_mag", "", 0, -1 }
+            { "hlc_30Rnd_9x19_B_MP5", "", 0 },
+            { "30Rnd_556x45_Stanag", "", 0 }
         };
     };
 

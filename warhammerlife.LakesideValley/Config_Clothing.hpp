@@ -113,45 +113,136 @@ class Clothing {
         side = "cop";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-            { "U_Rangemaster", "Cop Uniform", 0, { "", "", -1 } },
-            { "U_B_CombatUniform_mcam_tshirt", "", 0, { "life_coplevel", "SCALAR", 1 } },
-            { "U_B_survival_uniform", "", 0, { "life_coplevel", "SCALAR", 1 } },
-            { "U_B_CombatUniform_mcam_worn", "", 0, { "life_coplevel", "SCALAR", 2 } }
+            { "A3L_Police_Uniform", "Police Uniform", 0, { "", "", -1 } }
         };
         headgear[] = {
-            { "NONE", "Remove Hat", 0, { "", "", -1 } },
-            { "H_HelmetB_plain_mcamo", "", 0, { "life_coplevel", "SCALAR", 1 } },
-            { "H_Booniehat_mcamo", "", 0, { "life_coplevel", "SCALAR", 1 } },
-            { "H_MilCap_mcamo", "", 0, { "life_coplevel", "SCALAR", 2 } }
+            { "NONE", "Remove Headgear", 0, { "", "", -1 } },
+            { "H_Cap_police", "", 0, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
-            { "G_Shades_Black", "", 25, { "", "", -1 } },
-            { "G_Shades_Blue", "", 25, { "", "", -1 } },
-            { "G_Sport_Blackred", "", 20, { "", "", -1 } },
-            { "G_Sport_Checkered", "", 20, { "", "", -1 } },
-            { "G_Sport_Blackyellow", "", 20, { "", "", -1 } },
-            { "G_Sport_BlackWhite", "", 20, { "", "", -1 } },
-            { "G_Squares", "", 10, { "", "", -1 } },
-            { "G_Aviator", "", 100, { "", "", -1 } },
-            { "G_Lady_Mirror", "", 150, { "", "", -1 } },
-            { "G_Lady_Dark", "", 150, { "", "", -1 } },
-            { "G_Lady_Blue", "", 150, { "", "", -1 } },
-            { "G_Lowprofile", "", 30, { "", "", -1 } },
-            { "G_Combat", "", 55, { "", "", -1 } }
+            { "G_Shades_Black", "", 0, { "", "", -1 } },
+            { "G_Shades_Blue", "", 0, { "", "", -1 } },
+            { "G_Sport_Blackred", "", 0, { "", "", -1 } },
+            { "G_Sport_Checkered", "", 0, { "", "", -1 } },
+            { "G_Sport_Blackyellow", "", 0, { "", "", -1 } },
+            { "G_Sport_BlackWhite", "", 0, { "", "", -1 } },
+            { "G_Squares", "", 0, { "", "", -1 } },
+            { "G_Aviator", "", 0, { "", "", -1 } },
+            { "G_Lady_Mirror", "", 0, { "", "", -1 } },
+            { "G_Lady_Dark", "", 0, { "", "", -1 } },
+            { "G_Lady_Blue", "", 0, { "", "", -1 } },
+            { "G_Lowprofile", "", 0, { "", "", -1 } },
+            { "Bismarck_GasMask	", "", 0, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "V_Rangemaster_belt", "", 0, { "", "", -1 } },
-            { "V_PlateCarrier2_rgr", "", 0, { "life_coplevel", "SCALAR", 1 } }
+            { "A3L_RideAlongVest", "", 0, { "", "", -1 } },
+            { "A3L_cidvest1", "", 0, { "", "", -1 } },
+			{ "A3L_ftovest", "", 0, { "", "", -1 } },
+			{ "SWATvest1", "", 0, { "", "", -1 } },
+			{ "TFO_TACVEST_POLICE", "", 0, { "", "", -1 } },
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
-            { "B_Kitbag_cbr", "", 0, { "", "", -1 } },
-            { "B_FieldPack_cbr", "", 0, { "", "", -1 } },
-            { "B_AssaultPack_cbr", "", 0, { "", "", -1 } },
-            { "B_Bergen_sgg", "", 0, { "", "", -1 } },
-            { "B_Carryall_cbr", "", 0, { "", "", -1 } }
+            { "A3L_ANPRC155_Invisible", "", 0, { "", "", -1 } }
+        };
+    };
+
+	 class doc_cop {
+        title = "STR_Shop_PD_DOC";
+        license = "";
+        side = "cop";
+        uniforms[] = {
+            { "NONE", "Remove Uniform", 0, { "", "", -1 } },
+            { "A3L_DOCLieutenant_Uniform", "", 0, { "", "", -1 } },
+			{ "A3L_DOCOfficer_Uniform", "", 0, { "", "", -1 } },
+			{ "A3L_DOCSergeant_Uniform", "", 0, { "", "", -1 } },
+			{ "A3L_DOCWarden_Uniform", "", 0, { "", "", -1 } }
+        };
+        headgear[] = {
+            { "NONE", "Remove Headgear", 0, { "", "", -1 } },
+            { "H_Cap_police", "", 0, { "", "", -1 } }
+        };
+        goggles[] = {
+            { "NONE", "Remove Glasses", 0, { "", "", -1 } },
+            { "G_Shades_Black", "", 0, { "", "", -1 } },
+            { "G_Shades_Blue", "", 0, { "", "", -1 } },
+            { "G_Sport_Blackred", "", 0, { "", "", -1 } },
+            { "G_Sport_Checkered", "", 0, { "", "", -1 } },
+            { "G_Sport_Blackyellow", "", 0, { "", "", -1 } },
+            { "G_Sport_BlackWhite", "", 0, { "", "", -1 } },
+            { "G_Squares", "", 0, { "", "", -1 } },
+            { "G_Aviator", "", 0, { "", "", -1 } },
+            { "G_Lady_Mirror", "", 0, { "", "", -1 } },
+            { "G_Lady_Dark", "", 0, { "", "", -1 } },
+            { "G_Lady_Blue", "", 0, { "", "", -1 } },
+            { "G_Lowprofile", "", 0, { "", "", -1 } },
+            { "Bismarck_GasMask	", "", 0, { "", "", -1 } }
+        };
+        vests[] = {
+            { "NONE", "Remove Vest", 0, { "", "", -1 } },
+            { "A3L_RideAlongVest", "", 0, { "", "", -1 } },
+            { "A3L_docvest", "", 0, { "", "", -1 } },
+			{ "A3L_ftovest", "", 0, { "", "", -1 } }
+        };
+        backpacks[] = {
+            { "NONE", "Remove Backpack", 0, { "", "", -1 } },
+            { "A3L_ANPRC155_Invisible", "", 0, { "", "", -1 } }
+        };
+    };
+
+	class cso_cop {
+        title = "STR_Shop_PD_CSO";
+        license = "";
+        side = "cop";
+        uniforms[] = {
+            { "NONE", "Remove Uniform", 0, { "", "", -1 } },
+            { "A3L_FTOCaptain_Uniform", "", 0, { "", "", -1 } },
+			{ "A3L_FTOLieutenant_Uniform", "", 0, { "", "", -1 } },
+			{ "A3L_FTOSeniorDeputy_Uniform", "", 0, { "", "", -1 } },
+			{ "A3L_FTOSergeant_Uniform", "", 0, { "", "", -1 } },
+			{ "A3L_FTOSheriff_Uniform", "", 0, { "", "", -1 } },
+			{ "A3L_FTOUnderSheriff_Uniform", "", 0, { "", "", -1 } },
+			{ "A3L_Sheriff_Uniform", "", 0, { "", "", -1 } },
+			{ "A3L_SOCaptain_Uniform", "", 0, { "", "", -1 } },
+			{ "A3L_SODeputy_Uniform", "", 0, { "", "", -1 } },
+			{ "A3L_SOLieutenant_Uniform", "", 0, { "", "", -1 } },
+			{ "A3L_SOSergeant_Uniform", "", 0, { "", "", -1 } },
+			{ "A3L_SOSheriff_Uniform", "", 0, { "", "", -1 } },
+			{ "A3L_SOUnderSheriff_Uniform", "", 0, { "", "", -1 } }
+        };
+        headgear[] = {
+            { "NONE", "Remove Headgear", 0, { "", "", -1 } },
+            { "H_Cap_police", "", 0, { "", "", -1 } }
+        };
+        goggles[] = {
+            { "NONE", "Remove Glasses", 0, { "", "", -1 } },
+            { "G_Shades_Black", "", 0, { "", "", -1 } },
+            { "G_Shades_Blue", "", 0, { "", "", -1 } },
+            { "G_Sport_Blackred", "", 0, { "", "", -1 } },
+            { "G_Sport_Checkered", "", 0, { "", "", -1 } },
+            { "G_Sport_Blackyellow", "", 0, { "", "", -1 } },
+            { "G_Sport_BlackWhite", "", 0, { "", "", -1 } },
+            { "G_Squares", "", 0, { "", "", -1 } },
+            { "G_Aviator", "", 0, { "", "", -1 } },
+            { "G_Lady_Mirror", "", 0, { "", "", -1 } },
+            { "G_Lady_Dark", "", 0, { "", "", -1 } },
+            { "G_Lady_Blue", "", 0, { "", "", -1 } },
+            { "G_Lowprofile", "", 0, { "", "", -1 } },
+            { "Bismarck_GasMask	", "", 0, { "", "", -1 } }
+        };
+        vests[] = {
+            { "NONE", "Remove Vest", 0, { "", "", -1 } },
+            { "A3L_RideAlongVest", "", 0, { "", "", -1 } },
+            { "A3L_ftovest2", "", 0, { "", "", -1 } },
+			{ "SCommand_Vest", "", 0, { "", "", -1 } },
+			{ "A3L_sheriffvest", "", 0, { "", "", -1 } },
+			{ "TFO_TACVEST_SHERIFF", "", 0, { "", "", -1 } },
+        };
+        backpacks[] = {
+            { "NONE", "Remove Backpack", 0, { "", "", -1 } },
+            { "A3L_ANPRC155_Invisible", "", 0, { "", "", -1 } }
         };
     };
 

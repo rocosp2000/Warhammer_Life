@@ -11,7 +11,7 @@ class Licenses {
     class driver {
         variable = "driver";
         displayName = "STR_License_Driver";
-        price = 500;
+        price = 50;
         illegal = false;
         side = "civ";
     };
@@ -19,7 +19,7 @@ class Licenses {
     class boat {
         variable = "boat";
         displayName = "STR_License_Boat";
-        price = 1000;
+        price = 500;
         illegal = false;
         side = "civ";
     };
@@ -27,7 +27,7 @@ class Licenses {
     class pilot {
         variable = "pilot";
         displayName = "STR_License_Pilot";
-        price = 25000;
+        price = 150;
         illegal = false;
         side = "civ";
     };
@@ -35,7 +35,7 @@ class Licenses {
     class trucking {
         variable = "trucking";
         displayName = "STR_License_Truck";
-        price = 20000;
+        price = 75;
         illegal = false;
         side = "civ";
     };
@@ -43,7 +43,7 @@ class Licenses {
     class gun {
         variable = "gun";
         displayName = "STR_License_Firearm";
-        price = 10000;
+        price = 500;
         illegal = false;
         side = "civ";
     };
@@ -51,7 +51,7 @@ class Licenses {
     class dive {
         variable = "dive";
         displayName = "STR_License_Diving";
-        price = 2000;
+        price = 200;
         illegal = false;
         side = "civ";
     };
@@ -59,7 +59,7 @@ class Licenses {
     class home {
         variable = "home";
         displayName = "STR_License_Home";
-        price = 75000;
+        price = 100000;
         illegal = false;
         side = "civ";
     };
@@ -166,7 +166,7 @@ class Licenses {
     class cAir {
         variable = "cAir";
         displayName = "STR_License_Pilot";
-        price = 15000;
+        price = 0;
         illegal = false;
         side = "cop";
     };
@@ -174,7 +174,7 @@ class Licenses {
     class cg {
         variable = "cg";
         displayName = "STR_License_CG";
-        price = 8000;
+        price = 0;
         illegal = false;
         side = "cop";
     };
@@ -183,7 +183,7 @@ class Licenses {
     class mAir {
         variable = "mAir";
         displayName = "STR_License_Pilot";
-        price = 15000;
+        price = 0;
         illegal = false;
         side = "med";
     };

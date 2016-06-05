@@ -177,6 +177,12 @@
       <German>Tankstellen Café</German>
       <Polish>Caffe OLLEN</Polish>
     </Key>
+	<Key ID="STR_Shop_PD_DOC">
+      <Original>DOC Police Store</Original>
+    </Key>
+	<Key ID="STR_Shop_PD_CSO">
+      <Original>CSO Police Store</Original>
+    </Key>
   </Package>
   <Package name="Global">
     <Key ID="STR_Global_Close">
